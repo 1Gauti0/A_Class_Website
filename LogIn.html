@@ -1,0 +1,184 @@
+
+<!DOCTYPE html>
+<head>
+<title>
+SP CLASSES
+</title>
+
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link href="//netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css" rel="stylesheet"> 
+<style>
+div.Title {
+	text-align: center;
+	text-color: blue;
+	font-family: arial;
+	font-size: 65px;
+}
+ul.menu {
+	text-color: black;
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+	background-color:#123456;
+	margin-top: 60px;
+}
+li {
+    float: left;
+}
+li a.menu, .dropbtn {
+    display: inline-block;
+	font-size: 15px;
+    color:white;
+    text-align: center;
+    padding: 20px 25px;
+    text-decoration: none;
+}
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: blue;
+}
+li.dropdown {
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    background-color: #123321;
+    position: absolute;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	 z-index: 5;
+}
+.dropdown-content a {
+    color: black;
+	color: white;
+    padding: 20px 25px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content a:hover {background-color: maroon}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+</style>
+  <style>
+ 
+  body
+  {
+  .site{
+    background: #111111;
+	width: 125%;
+	margin: 30px auto;
+	height:auto;
+	}
+	.navbar-default
+	{ background-color:#123456; color:#FFFFFF;}
+	.navbar-default .navbar-brand {
+    color:#FFFFFF;
+	}
+	.navbar-default .navbar-nav > li > a {
+		color: #FFFFFF;
+	}
+	.navbar-nav > li > a, .navbar-brand {
+		padding-top:10px !important; padding-bottom:0 !important;
+		height: 40px;
+	}
+	.navbar {min-height:40px !important;}
+	img {
+		width: 40%;
+		height: auto;
+	}
+	a:hover {
+    background-color: yellow;
+}
+</style>
+<script src="https://apis.google.com/js/platform.js" async defer></script>
+</head>
+<body>
+<div class="Title">Welcome to SP CLASSES</div>
+ <div>
+		<div class="row">
+			<div class="twelve columns">
+			<img src="" alt="SP Classes Logo" align="left"/>
+			<div style="position: absolute;top: 100px;left:60px;font-size:14px;"><h4><i></i></h4></div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="twelve columns">
+				<ul class="menu">
+					<li style="padding-left: 3em;"  >&nbsp;</li>
+					<li><a class="menu" href="MiniProject.html">Home</a></li>
+					<li><a class="menu" href="https://www.linkedin.com/in/saurabh-patil-76a4541b1">About</a></li>
+					<li class="dropdown">
+						<a href="javascript:void(0)" class="dropbtn">Social</a>
+						<div class="dropdown-content">
+							<a class="menu" href="" target="_blank">Email</a>
+							<a class="menu" href="https://instagram.com/saurabh.patil_98?igshid=33ezaowwf23v" target="_blank">Instagram</a>
+					  </div>
+				    </li>
+					<li class="dropdown">
+					  <a href="javascript:void(0)" class="dropbtn">Exams</a>
+					  <div class="dropdown-content">
+					    <a href="ED.html">Engineering Drawing</a>
+						<a href="MD.html">Mechanical Engineering Drawing 1 and 2</a>
+					<!--	<a href="">NATA</a>    -->
+					  </div>
+				    </li>
+					<li class="dropdown">
+						<a href="javascript:void(0)" class="dropbtn">Sample Papers</a>
+						<div class="dropdown-content">
+						  <a  href="https://brpaper.com/psbte/diploma/me/3/ed-1">Engineering Drawing</a>
+						  <a  href="http://www.polytechnic.brahmavalley.com/downloads-tabs-data/df/Sample_Question_Paper_3/17305%20-%20Mechanical%20Engineering%20Drawing(ME).pdf">Mechanical Engineering Drawing 1 and 2</a>
+						</div>
+					</li>
+					<li class="dropdown">
+						<a href=
+					<li><a class="menu" href="https://forms.gle/eyWMZka7tKMU7dKs6" target='_blank'>Contact Us</a></li>
+					<li><a class="menu" style="text-align: right" href="">Log-In</a></li>
+				</ul>
+			</div>
+		</div>
+		 <form name="form1" method="post" action="" class="form-horizontal">
+		<legend style="text-align: center">>Login</legend>
+		  <div class="form-group">
+			<label class="col-md-4 control-label" for="name">Email</label>
+			<div class="col-md-8">
+			  <input id="user_name" name="user_name" type="text" placeholder="Enter email address" class="form-control input-md" required>
+			  <div id='myform_user_name_errorloc' class="error_strings"></div>
+			</div>
+		  </div>
+		   <div class="form-group">
+			<label class="col-md-4 control-label" for="name">Password</label>
+			<div class="col-md-8">
+			  <input type="password" name="password"  placeholder="Password" class="form-control input-md" required>
+			  <div id='myform_password_errorloc' class="error_strings"></div>
+			</div>
+			 		  </div>
+
+		  		  <div class="form-group">
+				  <label class="col-md-4 control-label" for="bCancel"></label>
+				  <div class="col-md-12">
+					<button id="submit" name="submit"  type='submit' class="btn btn-primary" style="text-align: center"> &nbsp;&nbsp; Login &nbsp;&nbsp; </button>
+				  </div>
+				</div>
+			
+<?php
+// define variables and set to empty values
+$name = $email = $gender = $comment = $website = "";
+
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+  $email = test_input($_POST["Email"]);
+  $gender = test_input($_POST["Password"]);
+}
+
+function test_input($data) {
+  $data = trim($data);
+  $data = stripslashes($data);
+  $data = htmlspecialchars($data);
+  return $data;
+}
+?>			
+		  </form>
+</div>

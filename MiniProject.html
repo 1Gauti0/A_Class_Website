@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<head>
+<title>
+SP CLASSES
+</title>
+<style>
+div.Title {
+	text-align: center;
+	text-color: blue;
+	font-family: arial;
+	font-size: 65px;
+}
+ul.menu {
+	text-color: black;
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+	background-color:#123456;
+	margin-top: 60px;
+}
+li {
+    float: left;
+}
+li a.menu, .dropbtn {
+    display: inline-block;
+	font-size: 15px;
+    color:white;
+    text-align: center;
+    padding: 20px 25px;
+    text-decoration: none;
+}
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: blue;
+}
+li.dropdown {
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    background-color: #123321;
+    position: absolute;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	 z-index: 5;
+}
+.dropdown-content a {
+    color: black;
+	color: white;
+    padding: 20px 25px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content a:hover {background-color: maroon}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,600,700');
+
+body{
+  font-family: 'Nunito', sans-serif;
+}
+
+.a{color: #E7484F}
+.b{color: #F68B1D}
+.c{color: #FCED00}
+.d{color: #009E4F}
+.e{color: #00AAC3}
+.f{color:  #732982}
+
+
+.container{
+  margin-top: 150px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.rainbow{
+  background-color: #343A40;
+  border-radius: 4px;  
+  color: #fff;
+  cursor: pointer;
+  padding: 8px 16px;
+  
+}
+
+.rainbow-1:hover{
+   background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%);
+   animation:slidebg 5s linear infinite;
+}
+
+.rainbow-2:hover{
+  background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet, red);
+  animation:slidebg 2s linear infinite;
+}
+
+.rainbow-3:hover{
+  background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, red);
+  animation:slidebg 2s linear infinite;
+}
+
+.rainbow-4:hover{
+   background-image:     linear-gradient(
+      to right, 
+      #E7484F,
+      #F68B1D, 
+      #FCED00,
+      #009E4F,
+      #00AAC3,
+      #732982
+    );
+  animation:slidebg 2s linear infinite;
+}
+
+
+.rainbow-5:hover{
+   background-image:     linear-gradient(
+      to right, 
+      #E7484F,
+      #E7484F 16.65%,
+      #F68B1D 16.65%,
+      #F68B1D 33.3%,
+      #FCED00 33.3%,
+      #FCED00 49.95%,
+      #009E4F 49.95%,
+      #009E4F 66.6%,
+      #00AAC3 66.6%,
+      #00AAC3 83.25%,
+      #732982 83.25%,
+      #732982 100%,
+      #E7484F 100%
+     
+     
+     
+    );
+  animation:slidebg 2s linear infinite;
+}
+
+
+@keyframes slidebg {
+  to {
+    background-position:20vw;
+  }
+}
+
+.follow{
+  margin-top: 40px;
+}
+
+.follow a{
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+
+</style>
+<style>
+
+</style>
+</head>
+<body>
+<div class="Title">Welcome to SP CLASSES</div>
+ <div>
+		<div class="row">
+			<div class="twelve columns">
+			<img src="https://image.shutterstock.com/image-vector/initial-letter-sp-logotype-company-260nw-1143851846.jpg" alt="SP Classes Logo" align="left"/>
+			<div style="position: absolute;top: 100px;left:60px;font-size:14px;"><h4><i></i></h4></div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="twelve columns">
+				<ul class="menu">
+					<li style="padding-left: 3em;"  >&nbsp;</li>
+					<li><a class="menu" href="MiniProject.html">Home</a></li>
+					<li><a class="menu" href="">About</a></li>
+					<li class="dropdown">
+						<a href="javascript:void(0)" class="dropbtn">Social</a>
+						<div class="dropdown-content">
+							<a class="menu" href="https://www.linkedin.com/in/saurabh-patil-76a4541b1" target="_blank">LinkedIN</a>
+							<a class="menu" href="https://instagram.com/saurabh.patil_98?igshid=33ezaowwf23v" target="_blank">Instagram</a>
+					  </div>
+				    </li>
+					<li class="dropdown">
+					  <a href="javascript:void(0)" class="dropbtn">Exams</a>
+					  <div class="dropdown-content">
+					    <a href="ED.html">Engineering Drawing</a>
+						<a href="MD.html">Mechanical Engineering Drawing 1 and 2</a>
+					<!--	<a href="">NATA</a>    -->
+					  </div>
+				    </li>
+					<li class="dropdown">
+						<a href="javascript:void(0)" class="dropbtn">Sample Papers</a>
+						<div class="dropdown-content">
+						  <a  href="https://brpaper.com/psbte/diploma/me/3/ed-1">Engineering Drawing</a>
+						  <a  href="http://www.polytechnic.brahmavalley.com/downloads-tabs-data/df/Sample_Question_Paper_3/17305%20-%20Mechanical%20Engineering%20Drawing(ME).pdf">Mechanical Engineering Drawing 1 and 2</a>
+						</div>
+					</li>
+					<li class="dropdown">
+						<a href=
+					<li><a class="menu" href="https://forms.gle/eyWMZka7tKMU7dKs6" target='_blank'>Contact Us</a></li>
+					<li><a class="menu" style="text-align: right" href="LogIn.html">Log-In</a></li>
+				</ul>
+			</div>
+		</div>
+</div>
+<div style="text-align: center">
+<h2>Preparatory Studio for Architecture Exam NATA </h2>
+
+ <div style="text-align: center">
+ 
+Today, a broad number of students across the globe cannot afford the higher tuitions of traditional colleges and universities, which have caused many of them to search for alternatives. <br>
+With nearly three million students currently enrolled in fully online degree programs  and six million taking at least one online course as part of their degree program, it seems that online education and the free online courses has clearly become one of the most popular higher education alternatives. <br>
+The continually improving reputation of online learning has also helped fuel its expansion, as initial skepticism has faltered in the face of evidence that shows that online learning can be just as effective as face-to-face education.
+</div>
+<br><br>
+SP Calsses is a gateway to architecture, assisting you with the preparation of your pre-qualifying National Aptitude Test for Architecture (NATA)<br><br><br>
+We Provide a certified 7 months course which includes
+<ul style="text-align:center">
+	<li>Learning basics of 2d/3d </li><br>
+	<li>Perspective drawing(all types)</li><br>
+	<li>Study material of current and past years</li><br>
+	<li>Mock tests and booklets for Aptitude test</li><br>
+	<li>Maths based sessions, with one on one doubt clearing sessions</li><br>
+	<li>In class question paper solution </li><br>
+</ul>
+</div>
+<br>
+<br>
+<p style="text-align: center ;font-size: 150%">Attend the SP Classes Seminar to get a full depth explanation about the Exam
+<p class="container text-center">
+   <a class="rainbow rainbow-1" src="https://seminar-regstration.000webhostapp.com/Registration.html">Register!<a/>
+</div>
+</p>
+</body>
+</html>

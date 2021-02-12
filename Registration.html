@@ -1,0 +1,92 @@
+﻿<! DOCTYPE HTML>
+<html>
+<head>
+<title>
+    Seminar Registration
+</title>
+
+<link rel="stylesheet" href="C:\Users\Hrithik\Documents\Html Projects\Registration.css" type="text/css">">
+  <style>
+      body {
+         color: green;
+         font-family: Arial;
+      }
+   </style>
+</head>
+<body bgcolor=Orange >
+<h1 style="text-align:center;"> <span style="color:steelblue"> Registration </span></h1><hr><br>
+<h2 style="text-align:center;">Enter your Personal Details</h2>
+<div id="dedicated">
+<p> Full name:</p>
+<form><input type="text" name="username " placeholder="First Name" required></form>
+<form><input type="text" name="username " placeholder="Middle Name" required></form>
+<form><input type="text" name="username " placeholder="Surname" required>
+</form>
+</div>
+<p>Email-id:</p>
+<div class="form-group">
+<input type="email" id="email" placeholder="Enter Email" required>
+</div>
+<p>Country:</p>
+<input type="text" name="Country" required>
+<p>Country Code:</p>
+<input type="tel" name="Code" placeholder="+91" required>
+<p>Mobile number:</p>
+<input type="tel" name="Mobile number" placeholder="999-9999-999" required>
+<p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+<p style="text-align:center;">  <button class="Register"type="submit">Register</button></p>
+ <hr><br>
+<h2 style="text-align:center;">Select Your Profession :</h2>
+<p>Status:</p>
+<input type = "radio" name = "Emp. Status" value = "Student"></input>
+<label for="Emp. status">Student</label><br>
+<input type = "radio" name = "Emp. Status" value = "Faculty Member"></input>
+<label for="Emp. status">Faculty Member</label><br>
+<input required type = "radio" name = "Emp. Status" value = "Company Professional"></input>
+<label for="Emp. status">Company Professional</label><br>
+<input required type = "radio" name = "Emp. Status" value = "Company Representative"></input>
+<label for="Emp. status">Company Representative</label><br><hr>
+<h2 style="text-align:center;">Make Your Payment</h2>
+<div>
+<label for = "Currency">Type Of Currency :</label>
+<select class = "form-control" id="currency" required><option></option><option> Rupees</option><option> Dollars</option>
+</select>
+</div><BR>
+<div class = "form-group">
+<label for = "Mode Of Payment">Mode Of Payment :</label>
+<select class = "form-control" id="Mode Of Payment" required><option></option><option> Credit Card</option><option> Debit Card</option><option> Demand Draft</option>
+</select>
+</div><br>
+
+<hr>
+<h2 style="text-align:center;">Select Your Accomodation Preference</h2>
+<div class = "form-group">
+<label for = "Accommodation"> Accomodation :</label>
+<select class = "form-control" id="Accomodation" required><option></option><option> Western Inn</option><option> Trinity</option><option>Taj hotel</option><option> The Myriad</option></select>
+</div>
+<p style="text-align:center;">Select Additional Services Required :<br>(Optional)</p>	
+
+<input type ="checkbox" name = "Wi-Fi" ></input>
+<label for = "Wi-Fi">Wi-Fi</label><br>
+<input type ="checkbox" name = "Netflix" ></input>
+<label for = "Netflix">Netflix</label><br>
+<input type ="checkbox" name = "Amazon prime" ></input>
+<label for = "Men's Essentials">Men's Essentials</label><br>
+<input type ="checkbox" name = "Women's Essentials" ></input>
+<label for = "Women's Essentials">Women's Essentials</label><br>
+<input type ="checkbox" name = "Dinner" ></input>
+<label for = "Dinner">Dinner</label><br>
+<input type ="checkbox" name = "Spa" ></input>
+<label for = "Spa">Spa</label><br>
+<input type ="checkbox" name = "Gym" ></input>
+<label for = "Gym">Gym</label>
+<br><br>
+<button class="Register" type="submit" onclick='getElementById("prompt").innerHTML="Thank You"'>Finish Registration</button>
+<p id="prompt" style="text-align:center;">Click To Register</p>
+
+
+
+
+</body>
+
+</html>
